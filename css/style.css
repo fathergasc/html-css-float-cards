@@ -14,10 +14,31 @@ main {
     color: #E53170;
     margin: auto;
     background-color: rgb(61, 42, 165);
-    width: 70%;
+    max-width: 60%;
     text-align: center;
 }
 
 p   {
     margin-top: 50px;
+}
+
+.cards-container {
+    text-align: center;
+    margin: auto;
+}
+
+.card {
+    text-align: center;
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+    margin: 10px 10px;
+    float: left;
+    background-color: chartreuse;
+
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
 }
